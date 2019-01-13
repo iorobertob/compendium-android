@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:custom="http://schemas.android.com/apk/com.ideasBlock.compendium.GUI"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20pt"
+        android:id="@+id/framelayout">
+
+    <com.ideasBlock.compendium.GUI.RoundedCorner
+            custom:radius="1.0"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:background="#A0DDDDDD"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="5dp"/>
+
+    <com.ideasBlock.compendium.GUI.RoundedCorner
+            custom:radius="1.0"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:background="#FAFFFFFF"
+            android:layout_marginLeft="19.5dp"
+            android:layout_marginRight="19.5dp"
+            android:layout_marginTop="10.5dp"
+            android:layout_marginBottom="10.5dp"
+            android:elevation="5dp">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5pt">
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5pt">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:textColor="#A0000000"
+                        android:text="Name"
+                        android:ems="10"
+                        android:id="@+id/tv_name"
+                        android:layout_gravity="center"/>
+
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#A0000000"
+                        android:inputType="textPersonName"
+                        android:text="DESCRIPTION"
+                        android:ems="10"
+                        android:id="@+id/tv_desciption"
+                        android:layout_gravity="center_horizontal|center"/>
+
+
+            </LinearLayout>
+
+            <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/iv_cardpic"
+                    android:elevation="30dp"/>
+
+        </LinearLayout>
+
+    </com.ideasBlock.compendium.GUI.RoundedCorner>
+
+</FrameLayout>
