@@ -30,6 +30,7 @@ import org.json.JSONObject
 //TODO: Enable upload of images (service?)
 //TODO: Enrich profile
 //TODO: When coming back from profile, display the same user with the same query that was enabled before
+// TODO: Back button is going back to previous profiles and home's make single top
 
 class UserHome :    AppCompatActivity(),
                     OnMapReadyCallback,

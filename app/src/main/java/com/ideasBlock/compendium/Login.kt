@@ -142,7 +142,6 @@ class Login :   AppCompatActivity(),
 //                LoginManager.getInstance().logInWithPublishPermissions(
 //                    mThisActivity,
 //                    Arrays.asList("manage_pages"))
-
             }
 
             override fun onCancel() {

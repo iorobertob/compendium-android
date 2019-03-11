@@ -10,7 +10,7 @@ android {
         applicationId "com.ideasBlock.compendium"
         minSdkVersion 18
         targetSdkVersion 28
-        versionCode 5
+        versionCode 6
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -34,7 +34,7 @@ dependencies {
     implementation 'com.android.support:customtabs:28.0.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.android.support:support-media-compat:28.0.0'
-    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
     implementation 'com.google.android.gms:play-services-location:16.0.0'
     implementation 'com.android.support:recyclerview-v7:28.0.0'
     implementation 'com.android.support:design:28.0.0'
